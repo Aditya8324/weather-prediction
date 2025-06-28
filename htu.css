@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    font-size: 1rem;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Header Styles */
+h1 {
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+/* Section Titles */
+h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Paragraph and List Styles */
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+ul {
+    margin-left: 20px;
+    list-style-type: disc;
+    font-size: 1.1rem;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Container Styling */
+.container {
+    max-width: 900px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 2rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Additional Tips Section */
+section:last-of-type ul {
+    background-color: #e9ecef;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+section:last-of-type ul li {
+    font-weight: bold;
+}
